@@ -1,0 +1,58 @@
+chameleon:
+  lr: 0.001
+  hidden_dim: 64
+  num_layers: 3
+  jk: "max"
+  patience: 400
+  conv_type: "dir-gcn"
+  normalize: True
+  beta1: 0.75
+
+
+squirrel:
+  lr: 0.001
+  hidden_dim: 64
+  num_layers: 3
+  jk: "max"
+  patience: 400
+  conv_type: "dir-gcn"
+  normalize: True
+  beta1: 0.75
+
+
+directed-roman-empire:
+  lr: 0.001
+  hidden_dim: 64
+  num_layers: 3
+  jk: "max"
+  patience: 400
+  conv_type: "dir-gcn"
+  normalize: True
+  beta1: 0.75
+
+
+cora_ml:
+  lr: 0.001
+  hidden_dim: 64
+  num_layers: 3
+  jk: "max"
+  patience: 400
+  conv_type: "dir-gcn"
+  normalize: True
+  beta1: 0.75
+
+
+citeseer_full:
+  lr: 0.001
+  hidden_dim: 64
+  num_layers: 3
+  jk: "max"
+  patience: 400
+  conv_type: "dir-gcn"
+  normalize: True
+  beta1: 0.75
+
+
+
+
+
